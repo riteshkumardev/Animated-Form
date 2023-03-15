@@ -1,0 +1,183 @@
+.nav {
+    background-color: #7bb18b;
+height: 7%;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+
+    display: flex;
+}
+/* .fill-window {
+    height: 100%;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+} */
+
+
+.Navbar_Input {
+    width: 30%;
+    height: 70%;
+margin: auto;
+text-align: center;
+border-radius: 50px 20px;
+    border: none;
+    color: #c90c8a;
+border: 1px solid red;
+}
+
+.cartIcon {
+  
+    height: 120%;
+margin: auto;
+text-align: center;
+
+    border: none;
+    color: #c90c8a;
+ 
+}
+.home {
+
+margin: auto;
+text-align: center;
+
+    border: 1px solid red;
+    color: #c90c8a;
+ 
+}
+
+.Login {
+    height: 50%;
+    width: 5%;
+  margin: auto ;
+overflow: hidden;
+  margin-left: 0%;
+border-radius: 50px 20px;
+    background-color: #ffffff;
+border: 1px solid red;
+color: #c90c8a;
+}
+.home {
+    height: 50%;
+    width: 5%;
+  margin: auto ;
+overflow: hidden;
+ 
+border-radius: 50px 20px;
+    background-color: #ffffff;
+border: 1px solid red;
+color: #c90c8a;
+}
+.Offer {
+    height: 100%;
+    border: 1px solid red;
+    width:52%;
+  margin: auto ;
+  padding: 3px;
+overflow: hidden;
+ 
+border-radius: 50px 20px;
+    background-color: #ffffff;
+
+color: #c90c8a;
+}
+
+.dropdown {
+
+background-color: #7bb18b;
+    height: 7%;
+    /* position: absolute; */
+    left: 0;
+    margin-top:1%;
+    width: 10%;
+   
+}
+.Becomeh3 {
+    color: #ffffff;
+ margin: auto;
+}
+
+.more_label {
+    color: #ffffff;
+  
+}
+
+
+
+
+
+
+
+
+/* ///////////// Item Div ///////////////// */
+.itemDiv {
+    display: flex;
+    text-align: center;
+    box-shadow: 2px 2px 2px 2px #cecece;
+    height: 120px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.item {
+    width: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    height: 100px;
+    /* border: 1px solid red; */
+}
+
+.img {
+    width: 65px;
+    margin-left: 10px;
+    height: 65px;
+
+    /* border: 1px solid red; */
+}
+
+.centerDiv {
+    margin-top: 30px;
+    width: 100%;
+    border: 1px solid red;
+}
+
+.centerDiv2 {
+    margin-top:5%;
+    height: 10%;
+    width: 100%;
+}
+
+/* //////Bottom Div////////// */
+.itemDiv2 {
+    margin-top: -230px;
+    display: flex;
+    text-align: center;
+    box-shadow: 2px 2px 2px 2px #cecece;
+    height: 250px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.item2 {
+    width: 230px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    height: 100px;
+    /* border: 1px solid red; */
+}
+
+.img2 {
+    width: 210px;
+    margin-left: 10px;
+    height: 200px;
+
+    /* border: 1px solid red; */
+}
+
+
+
+
