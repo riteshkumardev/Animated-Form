@@ -14,6 +14,10 @@ import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import style from "../style.module.css";
 
 import Card from "../Card";
+import MuiCard from "./MuiCard";
+import item from "../../item.json";
+import product from "../../product.json";
+import { Grid } from "@mui/material";
 const drawerBleeding = 56;
 
 const Root = styled("div")(({ theme }) => ({
@@ -39,6 +43,10 @@ const Puller = styled(Box)(({ theme }) => ({
 }));
 
 function Dropdown(props) {
+  const jsonData = item.products.data.items;
+  // const products = product.CO;
+  // console.log(jsonData);
+  // console.log(product, "product");
   const { window } = props;
   const [open, setOpen] = React.useState(false);
 
@@ -102,16 +110,23 @@ function Dropdown(props) {
             overflow: "auto",
           }}
         >
-          <div
-            style={{
-              display: "flex",
-              justifyContent: "space-between",
-              height: "50%",
-              width: "50%",
-            }}
-          >
-            <Card />
-          </div>
+          <Grid container spacing={2} sx={{ margin: "auto" }}>
+            {jsonData?.map((el) => (
+              <>
+                <Grid item xs={3}>
+                  <MuiCard
+                    itemImg={el.url}
+                    ItemName={el.name}
+                    description={el.description}
+                    height={"400px"}
+                    width={"300px"}
+                    alt={el.url}
+                    Share={"Share"}
+                  />
+                </Grid>
+              </>
+            ))}
+          </Grid>
           <Skeleton variant="rectangular" height="100%" />
         </StyledBox>
       </SwipeableDrawer>
